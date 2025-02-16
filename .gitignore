@@ -1,0 +1,127 @@
+# ========================
+# 🐍 Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+
+# ========================
+# ⚙️ Virtual Environments
+# ========================
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile.lock
+
+# ========================
+# 🌱 Pipenv
+# ========================
+Pipfile.lock
+
+# ========================
+# 🌐 Django
+# ========================
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+/media/
+/static/
+staticfiles/
+*.bak
+secret.json
+
+# Django Migrations (Cache only, keep actual migrations)
+**/migrations/__pycache__/
+
+# ========================
+# 🔐 Environment Variables
+# ========================
+.env
+.env.local
+.env.*.local
+*.secret
+config/settings/local.py
+config/settings/test.py
+
+# ========================
+# 🚀 Django GraphQL (Graphene)
+# ========================
+*.graphqlconfig
+.graphqlconfig/
+.graphql/
+.graphqlrc.*
+graphql_schema.json
+.graphqlrc.yml
+
+# ========================
+# 🧪 Testing and Coverage
+# ========================
+.coverage
+*.cover
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+junitxml/
+.pytype/
+__snapshots__/
+.celerybeat-schedule
+
+# ========================
+# 🧹 IDEs and Editors
+# ========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# ========================
+# 🐳 Docker
+# ========================
+.dockerignore
+Dockerfile
+docker-compose.yml
+*.pid
+
+# ========================
+# ☁️ Cloud and Deployment
+# ========================
+.envrc
+*.key
+*.pem
+*.crt
+*.csr
+
+# ========================
+# 💾 Database Files
+# ========================
+*.sqlite3
+*.db
+*.db-journal
+
+# ========================
+# 📝 Logs and Debugging
+# ========================
+*.log
+*.out
+*.err
+logs/
+debug.log
+
+# ========================
+# 💡 System Files
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
